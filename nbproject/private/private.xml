@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/model/chesspieces/Rei.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/model/chesspieces/Peo.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/model/chesspieces/Torre.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/model/chesspieces/Alfil.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/knight/model/BoardDefinition.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/model/Arbitre.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/queens/view/MainWindow.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/model/Partida.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/knight/view/IntegerCellDrawable.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/view/Casella.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/view/ChessBoardWindow.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/model/User.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/model/Jugador.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/model/game/EstatTauler.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/repository/UsersRepository.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/view/MainMenu.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/queens/model/QueensSolver.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/knight/Bootstrap.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/knight/controller/MainWindowEvents.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/bootstrap/bootstrap.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/utils/CSVReader.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/model/chesspieces/Cavall.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/DataLoader.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/queens/model/BoardDefinition.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/repository/UsersRepositoryImpl.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/knight/view/MainWindow.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/Bootstrap.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/view/CellDrawable.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/usuaris/view/UsersWindow.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/model/chesspieces/Pesa.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/utils/PositionCode.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/model/game/BoardPosition.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/queens/controller/MainWindowEvents.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/knight/model/KnightsSolver.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/modules/saveboard/view/MainWindow.java</file>
+            <file>file:/C:/Users/NitroPC/Desktop/AlgorismiaBacktrackingPOO/src/core/model/chesspieces/Reina.java</file>
+        </group>
+    </open-files>
+</project-private>
