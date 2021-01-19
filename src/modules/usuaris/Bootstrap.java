@@ -49,7 +49,6 @@ public class Bootstrap {
             EstatTauler tauler = new EstatTauler(9);
             String[] pieces = gameData.tauler.split(" ");
             for (String piece : pieces) {
-                System.out.println(piece);
                 String[] posicio = piece.split("-");
                 tauler.colocarPesa(posicio[0], Pesa.getPesa(posicio[1], Integer.parseInt(posicio[2])));
             }

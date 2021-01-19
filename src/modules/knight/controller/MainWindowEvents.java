@@ -8,6 +8,7 @@ import java.util.logging.Logger;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import modules.knight.model.BoardDefinition;
+import modules.knight.model.KnightsSolver;
 import modules.knight.view.MainWindow;
 
 /**
@@ -30,9 +31,10 @@ public class MainWindowEvents implements ActionListener, ChangeListener {
             String accio = e.getActionCommand();
             switch (accio) {
                 case "compute" :{
-                    
-                    view.reset();
-//                    view.colocaPeces(content);
+                    KnightsSolver solution = new KnightsSolver(model.getBoardSize(),model.getInitialPosition().x,model.getInitialPosition().y);
+                    //view.reset();
+                    view.colocaPeces(solution.getDrawnBoard());
+                    break;
                 }
 
                 default :

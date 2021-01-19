@@ -6,6 +6,8 @@
 package modules.knight.model;
 
 import core.model.chesspieces.Cavall;
+import core.view.CellDrawable;
+import modules.knight.view.IntegerCellDrawable;
 
 /**
  *
@@ -13,49 +15,55 @@ import core.model.chesspieces.Cavall;
  */
 public class KnightsSolver {
 
-//    private int[][] tablero;
-//
-//    public KnightsSolver(BoardDefinition model) {
-//        tablero = new int[model.getBoardSize()][model.getBoardSize()];
-//        for (int i = 1; i <= model.getBoardSize() + 1; i++) {
-//            for (int j = 1; j <= model.getBoardSize() + 1; j++) {
-//                tablero[i][j] = 0;
-//            }
-//        }
-//    }
-//
-//    private void saltoCaballo(int x, int y, int i) {
-//        int nx, ny;
-//        int k;
-//        k = 0; // inicializa el conjunto de posibles movimientos
-//        do {
-//            k++;
-//            nx = x + Cavall[k - 1][0];
-//            ny = y + SALTO[k - 1][1];
-//// determina si nuevas coordenadas son aceptables
-//            if ((nx >= 1) && (nx <= N) && (ny >= 1) && (ny <= N)
-//                    && (tablero[nx][ny] == 0)) {
-//                tablero[nx][ny] = i; // anota movimiento
-//                if (i < N * N) {
-//                    saltoCaballo(nx, ny, i + 1);
-//// se analiza si se ha completado la solución
-//                    if (!exito) { // no se alcanzó la solución
-//                        tablero[nx][ny] = 0; // se borra anotación
-//                    }
-//                } else {
-//                    exito = true; // tablero cubierto
-//                }
-//            }
-//        } while ((k < 8) && !exito);
-//    }
-////muestra por pantalla los pasos del caballo
-//
-//    void escribirTablero() {
-//        for (int i = 1; i <= N; i++) {
-//            for (int j = 1; j <= N; j++) {
-//                System.out.print(tablero[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
-//    }
+    private int[][] tablero;
+    private int boardSize;
+    private int boardSizeNoZero;
+    private int initalColumn;
+    private int initialRow;
+    CellDrawable[][] drawnBoard;
+
+    public KnightsSolver(int boardSize, int initalColumn, int initialRow) {
+        this.boardSize=boardSize;
+        this.initalColumn=initalColumn-1;
+        this.initialRow=initialRow-1;
+        boardSizeNoZero=boardSize;
+        tablero = new int[boardSizeNoZero][boardSizeNoZero];
+        drawnBoard= new IntegerCellDrawable[boardSizeNoZero][boardSizeNoZero];
+        initTablero();
+        intToCellDrawable();
+    }
+    public CellDrawable[][] getDrawnBoard() {
+        return drawnBoard;
+    }
+    
+    private void initTablero(){
+        for (int i = 1; i < boardSizeNoZero; i++) {
+            for (int j = 0; j < boardSizeNoZero; j++) {
+                tablero[i][j] = j;
+            }
+        }
+        tablero[initalColumn][initialRow]=99;
+    }
+    private void intToCellDrawable(){   
+        for (int i = 0; i < boardSizeNoZero; i++) {
+            for (int j = 0; j < boardSizeNoZero; j++) {
+                IntegerCellDrawable dibujoNumero = new IntegerCellDrawable(tablero[i][j]);
+                drawnBoard[i][j]=dibujoNumero;
+            }
+        }
+        
+    }
+
+    @Override
+    public String toString() {
+        for (int i = 0; i < boardSizeNoZero; i++) 
+             {
+                for (int j = 0; j < boardSizeNoZero; j++) 
+                {
+                    System.out.print(tablero[i][j]+ " ");
+                }
+                 System.out.println(" ");
+             }
+        return null;
+    }
 }
